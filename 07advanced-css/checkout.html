@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <title>Koli Clothing: Home</title>
+         <link rel="stylesheet" href="koli.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="Learn about the Declaration of Independene of the United States">
+        <meta name="author" content="Koleman Stinger">
+        
+         <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+        </head>
+<body>
+        <!-- Start of the page header -->
+<header>
+    
+     <img src="kolilogologo.png" alt="site logo"
+width="75" height="99"> 
+    <div>
+    <h1>Koli Clothing</h1>
+    <p>feel the heat</p>
+</div>
+    </header>
+        <!-- Start of the page navigation -->
+    <nav>
+    <ul>
+        <li><a href="index.html">Our Mission</a></li>
+                <li><a href="shop.html">Shop</a></li>
+        <li> <a href="lookbook.html">Look book</a></li>
+         <li class="active"><a href="checkout.html">Check Out</a></li>
+        </ul>
+    </nav>
+        <!-- Start of the page content -->
+    <main>
+    <h1>Check Out</h1>
+        
+ <form method="get" class="myForm" action="thanks.html">
+        
+            
+            <fieldset> 
+                <legend>Payment Information</legend>
+         <label>Name on Card*<input type="text" name="name" required></label>
+       
+        <label>Card Number*<input type="text" name="cardnumber" required placeholder="0000-0000-0000-0000"></label>
+                
+        <label>Exp Date*<input type="text" name="expdate" required placeholder="00/00"></label>
+                
+        <label>CCV*<input type="text" name="ccv" required placeholder="xxx"></label>
+                     
+         <label>Cell Number*<input type="tel" name="phone" required placeholder="(000)-000-0000"></label>
+                
+         </fieldset>
+        
+            
+            <fieldset>
+            <legend>Shipping Options</legend>
+           <label> <input type="radio" name="method" value="upsground"> UPS Ground Shipping (6-8 buisness days) $2.00 </label>
+                
+            <label> <input type="radio" name="method" value="uspsground"> USPS Ground Shipping (4-7 buisness days) $4.00 </label>
+                
+            <label> <input type="radio" name="method" value="uspsexpress"> USPS Express Shipping (2-4 buisness days) $8.00 </label>
+            </fieldset>
+
+            
+            <fieldset>
+            <legend> Add ons</legend>
+           <label> <input type="checkbox" name="stickers" value="chosen"> Sticker Pack: $2.00</label>
+                
+             <label> <input type="checkbox" name="magazine" value="chosen"> Lookbook Magazine: $4.00 </label>
+                
+            <label> <input type="checkbox" name="poster" value="chosen"> Poster: $2.00 </label>
+                
+                <label> <input type="checkbox" name="signedposter" value="chosen"> Signed Skate Poster: $10.00 </label>
+                
+                <label> Select Skater for Signature
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="jamie">Jamie Foy</option>
+                 <option value="filipe">Filipe Mota</option>
+                <option value="alex">Alex Midler</option>
+                <option value="bryce">Bryce Whittier</option>
+                <option value="Andy">Andy Anderson</option>
+                </select>
+                </label>
+                
+                
+                <label>
+                <textarea name="comments"> Add message with signature ($5.00) </textarea>
+                </label>
+                
+            </fieldset>
+            
+            
+        <input type="submit" value="Check Out">
+        </form>
+        
+        
+        
+    </main>
+        <!-- Start of the page footer -->
+    <footer>
+     <p>&copy;2021 &bull; Koleman Stinger &bull;
+        <a href="mailto:Koliclothing@gmail.com"> Email us </a></p>
+    </footer>
+    </body>
+</html>
